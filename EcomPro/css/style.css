@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+header {
+    background-color: black;
+    font-family: 'Pirata One', cursive;
+}
+
+.img {
+    display: flex;
+    align-items: center;
+}
+
+.img img {
+    width: 40vh;
+    padding: 0 25px;
+}
+
+nav {
+    display: flex;
+
+}
+
+nav ul {
+    list-style: none;
+
+    display: flex;
+
+    align-items: center;
+}
+
+ul li {
+    padding: 10px;
+
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+ul li a:hover {
+    font-weight: bolder;
+}
+
+.search {
+    display: flex;
+    align-self: center;
+}
+
+.search input {
+    font-family: 'Pirata One', cursive;
+    width: 200px;
+    height: 20px;
+    margin: 20px;
+    padding: 0 7px;
+}
+
+.search button {
+    font-family: 'Pirata One', cursive;
+}
+
+.search .btn {
+    border-radius: 5px;
+    border: 2px solid black;
+    background-color: cadetblue;
+    align-self: center;
+    width: 50px;
+    height: 30px;
+    cursor: pointer;
+
+}
+
+.signin img {
+    width: 40px;
+}
+
+.signin {
+    width: 40px;
+    margin: 0px 15px 0px auto;
+    align-self: center;
+}
+
+
+.slider img{
+    width: 100vw;
+}
+.container {
+    min-height: calc(100vh - 10vh - 10vh);
+}
+.card{
+    text-align: center;
+}
+.card-items{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+
+
+
+
+footer {
+    background-color: black;
+    color: aqua;
+    height: 10vh;
+    font-family: 'Pirata One', cursive;
+}
